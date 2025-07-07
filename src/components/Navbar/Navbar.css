@@ -1,0 +1,52 @@
+.navbar {
+    width: 100%;
+    text-align: center;
+    background-color: var(--bg);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--text);
+}
+
+.navbar-prof-logo{
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+li img{
+    cursor: pointer;
+    height: clamp(1.5rem, 2.5vw, 2.5rem);
+    width: clamp(1.5rem, 2.5vw, 2.5rem);
+    border-radius: 50%;
+}
+
+.navbar-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+    margin-right: 40px;
+}
+
+.theme-toggle-btn{
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;  
+    align-items: center;     
+    padding: 0.5rem;
+    width: 100%; 
+}
+/* Style for the icon itself */
+.theme-icon {
+  font-size: clamp(1.5rem, 2.5vw, 2.5rem); /* Responsive font size -- font-size: clamp(min, preferred, max); */
+  color: yellow;
+  transition: transform 0.3s ease;
+}
+
+/* Optional: Add hover effect */
+.theme-toggle-btn:hover .theme-icon {
+  transform: rotate(20deg);
+  color: gold;
+}
