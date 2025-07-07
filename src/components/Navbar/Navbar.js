@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import './Navbar.css';
 import linkedin from '../../assets/linkedin.svg';
 import whatsapp from '../../assets/whatsapp.png';
-import git from '../../assets/git.png';
+import git from '../../assets/git.PNG';
 import { FiSun, FiMoon } from 'react-icons/fi'; // Icons from react-icons
 
 const Navbar = () => {
@@ -15,6 +15,7 @@ const Navbar = () => {
   useEffect(() => {
     document.body.classList.toggle("dark", isDark);
   }, [isDark]);
+  
 
   return (
     <nav className="navbar">

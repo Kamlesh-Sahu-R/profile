@@ -2,13 +2,13 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 3rem 2rem;
-  background-color: var(--proj-bg);
+  padding: 1rem 2rem;
+  background-color: var(--bg);
   color: var(--text);
   gap: 2rem;
-  
   transition: background 0.3s ease, color 0.3s ease;
   flex-wrap: nowrap;
+  margin-top: 4%;
 }
 
 /* 70% for text */
