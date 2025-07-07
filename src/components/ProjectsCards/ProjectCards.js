@@ -4,7 +4,7 @@ import './ProjectCards.css';
 function ProjectCards() {
   return (
     <div className="project-container">
-      <div className='myproject'><h1>My Projects</h1><div className='line'></div></div>
+      <div className='myproject'><span>My Projects</span><div className='line'></div></div>
       <div className="projectCard-container">
         {projects.map((project, index) => {
           const skills = project.skills.join(' | ');
@@ -12,7 +12,6 @@ function ProjectCards() {
           return (
             <div className="projectCard" key={index}>
               <div className="iframe-container">
-                {/* <a href={project.page} target="_blank" rel="noreferrer" className="iframe-link-overlay"></a> */}
                 <a
                     href={project.page}
                     target="_blank"

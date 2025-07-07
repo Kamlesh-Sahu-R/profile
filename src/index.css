@@ -1,5 +1,28 @@
+:root {
+  --bg: #ffffff;
+  --text: #000000;
+  --text1: oklab(51.32299999999999% -0.0298 -0.25085);
+  --card-bg: #f0f0f0;
+  --like-color: red;
+  --proj-bg: #e3f7f8;
+}
+
+body.dark {
+  --bg: #1e1e1e;
+  --text: #f5f5f5;
+  --text1: lch(91.34% 90.84 100.74);
+  --card-bg: #2b2b2b;
+  --proj-bg: #323636;
+} 
+
 body {
   margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+  background-color: var(--bg);
+  color: var(--text);
+  transition: background 0.3s, color 0.3s;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
