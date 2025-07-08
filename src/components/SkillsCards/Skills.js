@@ -1,6 +1,6 @@
 import html from "../../assets/HTML5.png";
 import css from "../../assets/CSS3.png";
-import javaScript from "../../assets/Javascript.png";
+import javaScript from "../../assets/javascript.png";
 import git from "../../assets/GitBlack.png";
 import reactjs from "../../assets/React.png";
 import nodejs from "../../assets/Nodejs.png";
