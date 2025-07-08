@@ -147,4 +147,10 @@
     font-size: 0.85rem;
     padding: 0.4rem 0.8rem;
   }
+  .projectCard {
+    flex-direction: column;
+  }
+  .iframe-container {
+    width: 100%;
+  }
 }
