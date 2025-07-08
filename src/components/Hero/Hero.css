@@ -11,6 +11,17 @@
   margin-top: 4%;
 }
 
+h1 {
+  font-size: 2rem;
+  /* margin: 0;
+  padding: 0.5rem; */
+  color: var(--text);
+  font-weight: 800;
+  /* background-color: var(--bg);
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px; */
+}
+
 /* 70% for text */
 .hero-text {
   flex: 0 0 70%;
