@@ -31,9 +31,9 @@
   border-top-right-radius: 12px;
 }
 
-img {
+/* img {
     background-color: var(--bg);
-}
+} */
 
 .skillCards-container {
   display: grid;

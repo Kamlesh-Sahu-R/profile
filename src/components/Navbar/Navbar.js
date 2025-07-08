@@ -1,8 +1,11 @@
 import { useState, useEffect } from 'react';
 import './Navbar.css';
-import linkedin from '../../assets/linkedin.svg';
-import whatsapp from '../../assets/whatsapp.png';
-import git from '../../assets/git.png';
+import linkedin from '../../assets/Navbar/linkedin.png';
+import whatsapp from '../../assets/Navbar/whatsapp.png';
+import git from '../../assets/Navbar/git.png';
+import facebook from '../../assets/Navbar/facebook.png';
+import tweeter from '../../assets/Navbar/twitter.png';
+import insta from '../../assets/Navbar/instagram.png';
 import { FiSun, FiMoon } from 'react-icons/fi'; // Icons from react-icons
 
 const Navbar = () => {
@@ -23,6 +26,9 @@ const Navbar = () => {
         <li><img src={linkedin} alt="linkedin" /></li>
         <li><img src={git} alt="git" /></li>
         <li><img src={whatsapp} alt="whatsapp" /></li>
+        <li><img src={facebook} alt="facebook" /></li>
+        <li><img src={tweeter} alt="tweeter" /></li>
+        <li><img src={insta} alt="instagram" /></li>
       </ul>
       <ul className="navbar-links">
         <li><h3>About</h3></li>
