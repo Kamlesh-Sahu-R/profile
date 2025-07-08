@@ -19,8 +19,8 @@ export default function Certificates() {
       </ul>
 
       {modalImage && (
-        <div className="modal" >
-          <div className="modal-content" >
+        <div className="modal" onClick={() => setModalImage(null)}>
+          <div className="modal-content" onClick={(e) => e.stopPropagation()}>
             <img src={modalImage} alt="Certificate" />
             <button onClick={() => setModalImage(null)}>Close</button>
           </div>
