@@ -120,6 +120,8 @@
   font-size: 1.8rem;
   cursor: pointer;
   color: var(--text1);
+  padding: 0.5rem;
+  z-index: 2000;
 }
 
 /* Show hamburger on small screens */
