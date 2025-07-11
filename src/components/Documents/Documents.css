@@ -1,15 +1,18 @@
 .documents-wrapper {
-  padding: 2rem 1rem;
-  background-color: var(--proj-bg);
+  padding: 1rem;
+  background-color: var(--bg);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   color: var(--text);
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 0;
 }
 
 .documents-wrapper h2 {
   font-size: 2rem;
   margin-bottom: 2rem;
+  margin-top: 0;
   text-align: center;
   position: relative;
 }
@@ -36,7 +39,7 @@
 }
 
 .documents-wrapper li {
-  background-color: var(--card-bg);
+  background-color: var(--proj-bg);
   border-radius: 4px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   text-align: center;

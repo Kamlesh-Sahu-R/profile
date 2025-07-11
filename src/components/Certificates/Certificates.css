@@ -1,6 +1,6 @@
 .certificates-wrapper {
   padding: 2rem 1rem;
-  background-color: var(--proj-bg);
+  background-color: var(--bg);
   color: var(--text);
   display: flex;
   flex-direction: column;
@@ -38,7 +38,7 @@
 
 /* Certificate Item */
 .certificates-wrapper li {
-  background-color: var(--card-bg);
+  background-color: var(--proj-bg);
   border-radius: 4px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   text-align: center;

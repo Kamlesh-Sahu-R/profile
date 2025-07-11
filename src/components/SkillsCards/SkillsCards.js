@@ -6,7 +6,7 @@ function SkillsCards() {
         <div className="skills-container">
             <div className='myskills'>
                 <span>Skills</span>
-                <div className='line'></div>
+                {/* <div className='line'></div> */}
             </div>
             <div className="skillCards-container">
                 {Skills.map((skill) => {

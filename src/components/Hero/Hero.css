@@ -11,18 +11,22 @@
   margin-top: 4%;
 }
 
-h1 {
-  font-size: 2rem;
-  /* margin: 0;
-  padding: 0.5rem; */
-  color: var(--text);
-  font-weight: 800;
-  /* background-color: var(--bg);
-  border-top-left-radius: 12px;
-  border-top-right-radius: 12px; */
+.hero-con {
+  display: flex;
+  align-items: center; 
+  gap: 1rem; 
+}
+.hero-con img {
+  width: 20px; 
+  height: auto;
 }
 
-/* 70% for text */
+h1 {
+  font-size: 2rem;
+  color: var(--text);
+  font-weight: 800;
+}
+
 .hero-text {
   flex: 0 0 70%;
   max-width: 70%;
