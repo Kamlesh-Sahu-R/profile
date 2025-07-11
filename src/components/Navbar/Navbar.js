@@ -69,6 +69,8 @@ const Navbar = () => {
 
   return (
     <nav className="navbar">
+      <div className="menu-toggle-navbar-prof-logo" >
+
       <ul className="navbar-prof-logo">
         <li><img src={linkedin} alt="linkedin" /></li>
         <li><img src={git} alt="git" /></li>
@@ -77,12 +79,17 @@ const Navbar = () => {
         <li><img src={tweeter} alt="tweeter" /></li>
         <li><img src={insta} alt="instagram" /></li>
       </ul>
-
-      {/* Hamburger Icon for small screen */}
+        {/* Hamburger Icon for small screen */}
       <div className="menu-toggle" onClick={toggleMenu}>
         {showMenu ? <FiX /> : <FiMenu />}
       </div>
+      
 
+      </div>
+
+      
+
+      <div>
       <ul className={`navbar-links ${showMenu ? 'show' : ''}`}>
         <li><h3>About</h3></li>
         <li><h3>Projects</h3></li>
@@ -93,6 +100,7 @@ const Navbar = () => {
           {isDark ? <FiSun className="theme-icon" /> : <FiMoon className="theme-icon" />}
         </button>
       </ul>
+      </div>
     </nav>
   );
 };

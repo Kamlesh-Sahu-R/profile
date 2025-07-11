@@ -114,7 +114,10 @@
     font-size: 1rem;
   }
 }
-
+.menu-toggle-navbar-prof-logo{
+  display: flex;
+  justify-content: space-between;
+}
 .menu-toggle {
   display: none;
   font-size: 1.8rem;
@@ -128,8 +131,11 @@
 @media (max-width: 768px) {
   .menu-toggle {
     display: block;
-    margin-left: auto;
+    /* margin-left: auto; */
     z-index: 1100;
+  }
+  .menu-toggle-navbar-prof-logo{
+    width: 94vw;
   }
 
   .navbar-links {

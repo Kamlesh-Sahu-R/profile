@@ -12,7 +12,7 @@ import linux from "../../assets/linux.png";
 import api from "../../assets/braces.png";
 import bootstrap from "../../assets/bootstrap.png";
 import mui from "../../assets/mui.png";
-import python from "../../assets/postgresh.png";
+import python from "../../assets/python.png";
 
 const Skills = [
     {id: 1, name: "HTML", image: html},
