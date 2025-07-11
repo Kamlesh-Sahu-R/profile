@@ -41,6 +41,7 @@
 .documents-wrapper li {
   background-color: var(--proj-bg);
   border-radius: 4px;
+  width: 90%;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   text-align: center;
   font-size: 1.1rem;

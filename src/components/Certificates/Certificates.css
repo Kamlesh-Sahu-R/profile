@@ -39,6 +39,7 @@
 /* Certificate Item */
 .certificates-wrapper li {
   background-color: var(--proj-bg);
+  width: 90%;
   border-radius: 4px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   text-align: center;
@@ -127,7 +128,7 @@
 }
 
 /* Modal closes on background tap */
-@media (max-width: 768px) {
+@media (max-width: 600px) {
   .modal-content {
     width: 100%;
     padding: 1rem;
