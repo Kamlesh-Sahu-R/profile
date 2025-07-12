@@ -20,9 +20,10 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="menu-toggle-navbar-prof-logo" >
         <ul className="navbar-prof-logo">
-          <li>
+          <li className="tooltip-container">
             <button onClick={toggleTheme} className="theme-toggle-btn">
               {isDark ? <FiSun className="theme-icon" /> : <FiMoon className="theme-icon" />}
+              <span className="tooltip-text">Theme</span>
             </button>
           </li>
           <li>
@@ -35,10 +36,11 @@ const Navbar = () => {
               <img src={git} alt="git" />
             </a>
           </li>
-          <li>
+          <li className="tooltip-container">
             <a href="https://www.crio.do/learn/portfolio/kamleshsahur/" target="_blank" rel="noopener noreferrer">
-              <img src={crio} alt="whatsapp" />
+              <img src={crio} alt="crio portfolio" />
             </a>
+            <span className="tooltip-text">Crio Portfolio</span>
           </li>
         </ul>
 

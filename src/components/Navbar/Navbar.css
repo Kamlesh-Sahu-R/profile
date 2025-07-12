@@ -63,9 +63,10 @@
   justify-content: center;
   filter: drop-shadow(0 0 2px rgba(0,0,0,0.3));
   transition: background 0.3s, border 0.3s;
+  
 }
 
-.theme-toggle-btn:hover {
+.theme-icon:hover {
   
   transform: rotate(20deg);
 }
@@ -75,8 +76,8 @@
   color: var(--text1);
 }
 
-/* Responsive Styles */
-@media (max-width: 768px) {
+
+@media (max-width: 600px) {
   .navbar {
     flex-direction: column;
     align-items: flex-start;
@@ -105,12 +106,12 @@
   .theme-toggle-btn {
     margin-left: 0;
   }
-}
+/* }
 
-@media (max-width: 480px) {
-  .navbar-links h3 {
+@media (max-width: 480px) { */
+  /* .navbar-links h3 {
     font-size: 0.9rem;
-  }
+  } */
 
   .theme-icon {
     font-size: 1rem;
@@ -129,8 +130,7 @@
   z-index: 2000;
 }
 
-/* Show hamburger on small screens */
-@media (max-width: 768px) {
+@media (max-width: 600px) {
   .menu-toggle {
     display: block;
     /* margin-left: auto; */
@@ -165,3 +165,28 @@
   }
 }
 
+.tooltip-container {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip-text {
+  visibility: hidden;
+  opacity: 0;
+  width: max-content;
+  color: var(--text1);
+  text-align: center;
+  position: absolute;
+  z-index: 10;
+  bottom: 105%; 
+  left: 50%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+  font-size: 0.75rem;
+  transition: opacity 0.3s ease;
+}
+
+.tooltip-container:hover .tooltip-text {
+  visibility: visible;
+  opacity: 1;
+}
