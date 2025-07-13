@@ -7,7 +7,7 @@ export default function Footer() {
       <div className="footer-content">
         <div className="footer-section footer-left">
           <h2>Kamlesh Sahu</h2>
-          <p>Frontend Developer | JavaScript | React</p>
+          <p>FullStack Developer | JavaScript | React</p>
         </div>
 
         <div className="footer-section footer-links">
