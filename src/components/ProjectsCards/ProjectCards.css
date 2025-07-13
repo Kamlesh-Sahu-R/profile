@@ -24,7 +24,7 @@
 
 .projectCard-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(1fr, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(45%, 1fr));
   gap: 2rem;
   padding: 2rem 1rem;
   background-color: var(--proj-bg);
@@ -40,6 +40,7 @@
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
   transition: transform 0.3s ease;
   display: flex;
+  flex-direction: column;
   
 }
 
@@ -49,7 +50,7 @@
 
 .iframe-container {
   position: relative;
-  width: 35%;
+  width: 100%;
   aspect-ratio: 16/9;
   overflow: hidden;
   border-bottom: 1px solid #ccc;
@@ -134,9 +135,9 @@
     font-size: 0.85rem;
     padding: 0.4rem 0.8rem;
   }
-  .projectCard {
+  /* .projectCard {
     flex-direction: column;
-  }
+  } */
   .iframe-container {
     width: 100%;
   }

@@ -4,7 +4,7 @@ const projects = [
     //     name: "Task Manager", 
     //     goal: "",
     //     focus: "NA",
-    //     plateform: "Vercel", 
+    //     plateform: ["Vercel"], 
     //     type: "Full Stack",
     //     skills: ["HTML", "CSS", "JavaScript", "ReactJS"],
     //     detail: "",
@@ -129,6 +129,27 @@ const projects = [
             "Utilised localStorage to persist user preferences at client-side",
         ],
     },
+    { 
+        id: 7, 
+        name: "Medify", 
+        goal: "Build XMedify - an app to book doctor appointments and get it looking as close to the design as possible. Use your REACTJS skills to achieve this.",
+        focus: "REACT",
+        plateform: ["Vercel"], 
+        type: "Full Stack",
+        skills: ["HTML", "CSS", "JavaScript", "ReactJS"],
+        detail: "https://www.crio.do/learn/me/ME_FE_XMEDIFY_V2/",
+        figma: "https://www.figma.com/design/BLZw4DOia4hXyqt8X1Yuyl/Desktop-Designs---Healthcare-Consultation--Community-?node-id=0-1&p=f",
+        doc: "NA",
+        github:"https://github.com/Kamlesh-Sahu-R/medify", 
+        page: "https://medify-six-sand.vercel.app/",
+        description: [
+            "Created dropdown for city and state and fetch the hospital after selection of both.",
+            "Created appoinment booking section when a medical center is clicked.",
+            "User can slect date and time and book appoinment.",
+            "Displayed booking slots on My Booking page.",
+        ],
+    },
+
   
 ];
 
