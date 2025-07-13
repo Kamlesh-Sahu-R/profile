@@ -16,3 +16,68 @@ const sampleArray = [
                 },
     }
 ];
+
+.app{
+  min-height: 100vh; 
+  display: flex;
+  flex-direction: column;
+  padding-top: 80px;
+}
+
+.content-wrapper {
+  display: flex;
+  flex: 1;
+}
+
+
+.layout {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 100vh;
+}
+
+/* Sidebar / Navbar as Aside */
+.sidebar {
+  width: 15rem;
+  background-color: var(--card-bg, #2c3e50);
+  color: var(--text, #fff);
+  padding: 1rem;
+  flex-shrink: 0;
+  box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
+  
+}
+
+/* Main content area */
+.main-content {
+  flex: 1;
+  padding: 2rem;
+  overflow-x: hidden;
+}
+
+@media (max-width: 600px) {
+  .layout {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 95%;
+    padding: 0.5rem 1rem;
+  }
+
+  .main-content {
+    padding: 1rem;
+  }
+  
+}
+footer {
+  margin-top: auto;
+  padding: 1rem;
+  background-color: #1e1e1e;
+  color: #fff;
+  text-align: center;
+}
+
+
+
+

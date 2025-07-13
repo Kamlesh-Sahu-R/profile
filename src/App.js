@@ -6,6 +6,7 @@ import ProductCards from './components/ProjectsCards/ProjectCards';
 import GitContribution from './components/GitContribution/GitContribution';
 import Certificates from './components/Certificates/Certificates';
 import Documents from './components/Documents/Documents';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <header>
         <Navbar />
       </header>
+      <div className="content-wrapper">
       <aside className="sidebar">
         <Certificates />
         <Documents />
@@ -23,6 +25,10 @@ function App() {
         <ProductCards />
         <GitContribution />
       </main>
+      
+        
+      </div>
+      <Footer />
     </div>
   );
 }
