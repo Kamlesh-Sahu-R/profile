@@ -5,7 +5,9 @@
   --card-bg: #f0f0f0;
   --like-color: red;
   --proj-bg: #e3f7f8;
-  --footer-bg: #eaeaea;
+  --footer-bg: #a593c8;
+  --footer-bg1: #85cb7d;
+  --footer-text: #19131e;
 }
 
 body.dark {
@@ -14,7 +16,9 @@ body.dark {
   --text1: lch(91.34% 90.84 100.74);
   --card-bg: #2b2b2b;
   --proj-bg: #323636;
-  --footer-bg: #202020;
+  --footer-bg: #19131e;
+  --footer-bg1: #0e2114;
+  --footer-text: #715ee8;
 } 
 
 body {

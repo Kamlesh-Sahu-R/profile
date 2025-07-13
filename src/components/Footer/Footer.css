@@ -1,6 +1,7 @@
 .footer {
-  background-color: var(--footer-bg); /* Dynamic background */
-  color: var(--text);                 /* Dynamic text color */
+  background: linear-gradient(to right, var(--footer-bg), var(--footer-bg1));
+  /* background-color: var(--footer-bg);  */
+  color: var(--text);                 
   padding: 2rem 1rem;
   font-family: 'Segoe UI', sans-serif;
   transition: background-color 0.3s, color 0.3s;
@@ -50,7 +51,7 @@
   padding-top: 1rem;
   text-align: center;
   font-size: 0.9rem;
-  color: #aaa;
+  color: var(--footer-text);
 }
 
 /* Responsive */
