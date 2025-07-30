@@ -3,8 +3,8 @@ import './ProjectCards.css';
 
 function ProjectCards() {
   return (
-    <div className="project-container">
-      <div className='myproject'><span>My Projects</span></div>
+    <div id= "projects" className="project-container">
+      <div className='myproject'><span>My Projects <span style={{ color: '#ff5722' }}>({projects.length})</span></span></div>
       <div className="projectCard-container">
         {projects.map((project, index) => {
           const skills = project.skills.join(' | ');
@@ -36,10 +36,10 @@ function ProjectCards() {
                 </ul>
                 <h4>Project Type: <span>{project.type}</span></h4>
                 <h4>Deployed in: <span>{platform}</span></h4>
-                <h4>Skills Used: <span className="skills">{skills}</span></h4>
+                <h4>Tech Stack: <span className="skills">{skills}</span></h4>
                 <div className="source-links">
-                  <a href={project.page} target="_blank" rel="noreferrer" className="source-links-content">Demo</a>
-                  <a href={project.github} target="_blank" rel="noreferrer" className="source-links-content">GitHub Repo</a>
+                  <a href={project.page} target="_blank" rel="noreferrer" className="source-links-content">Live Link</a>
+                  <a href={project.github} target="_blank" rel="noreferrer" className="source-links-content">GitHub Link</a>
                   <a href={project.doc} target="_blank" rel="noreferrer" className="source-links-content">Project Details</a>
                   <a href={project.figma} target="_blank" rel="noreferrer" className="source-links-content">Figma Doc</a>
                   <a href={project.detail} target="_blank" rel="noreferrer" className="source-links-content">Module Details</a>

@@ -1,0 +1,75 @@
+/* Top-level container */
+.layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100%;
+}
+
+/* Optional padding if Navbar is fixed */
+/* .app {
+  padding-top: 80px;
+} */
+
+/* Wrapper for sidebar + main content */
+.content-wrapper {
+  display: flex;
+  flex: 1;
+  width: 100%;
+  gap: 1rem;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 240px;
+  background-color: var(--card-bg, #2c3e50);
+  color: var(--text, #ffffff);
+  padding: 1rem;
+  flex-shrink: 0;
+  box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+/* Main content */
+.main-content {
+  flex: 1;
+  padding: 2rem;
+  overflow-x: hidden;
+  background-color: var(--bg);
+}
+
+/* Footer */
+footer {
+  margin-top: auto;
+  padding: 1rem;
+  background-color: var(--footer-bg, #1e1e1e);
+  color: var(--text, #ffffff);
+  text-align: center;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Tablet + Mobile Responsiveness */
+@media (max-width: 1024px) {
+  .content-wrapper {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+    box-shadow: none;
+  }
+
+  .main-content {
+    padding: 1.5rem 1rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .main-content {
+    padding: 1rem;
+  }
+
+  .sidebar {
+    padding: 0.5rem 1rem;
+  }
+}

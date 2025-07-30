@@ -9,8 +9,10 @@ const Hero = () => {
       <div className="hero-text">
         <h3>Hi my name is</h3>
         <h1>Kamlesh Sahu</h1>
+        <div className='title'>Frontend | Fullstack | React Developer</div>
         <p><strong>
-          Fullstack Developer with a non-technical background in Toll Automation, bringing a unique blend of real-world problem-solving and user-centric thinking to web development. Proficient in both frontend and backend technologies including HTML, CSS, JavaScript, React, Node.js, and MongoDB. Passionate about building scalable, secure, and responsive web applications that offer seamless user experiences. Adept at bridging the gap between UI design and server logic, with a strong focus on performance, accessibility, and maintainability.
+          {/* Fullstack Developer with a non-technical background in Toll Automation, bringing a unique blend of real-world problem-solving and user-centric thinking to web development. Proficient in both frontend and backend technologies including HTML, CSS, JavaScript, React, Node.js, and MongoDB. Passionate about building scalable, secure, and responsive web applications that offer seamless user experiences. Adept at bridging the gap between UI design and server logic, with a strong focus on performance, accessibility, and maintainability. */}
+          Passionate React Developer with hands-on experience building responsive, scalable web apps using HTML/CSS, and the MERN stack. Transitioning from a systems engineering background into full-stack web development after completing industry-aligned training at Crio.do. Strong problem-solving mindset with live project experience and API integrations.
           </strong> 
         </p>
         <div className="hero-con">

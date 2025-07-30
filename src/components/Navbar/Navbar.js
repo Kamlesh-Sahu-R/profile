@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import './Navbar.css';
 import linkedin from '../../assets/Navbar/linkedin.png';
 import crio from '../../assets/Navbar/crio.png';
@@ -52,8 +53,10 @@ const Navbar = () => {
       </div>
       <div>
         <ul className={`navbar-links ${showMenu ? 'show' : ''}`}>
+          <li><h3><Link to="/">Home</Link></h3></li> 
+      <li><h3><Link to="/tools">Tools</Link></h3></li>
           <li><h3>About</h3></li>
-          <li><h3>Projects</h3></li>
+          <li><a href='#projects' style={{textDecoration: "none"}}><h3>Projects</h3></a></li>
           <li><h3>Skills</h3></li>
           <li><h3>Upload</h3></li>
           <li><h3>Contact</h3></li> 

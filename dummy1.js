@@ -1,0 +1,42 @@
+const miniProjects = [
+    { 
+        id: 1,
+        name: "XCalculator",
+        image: "",
+        link: "https://cheerful-florentine-1a4772.netlify.app/",
+        github: "https://github.com/Kamlesh-Sahu-R/xcalculator",
+        module:"https://www.crio.do/learn/me/ME_FE_BUILDOUT_XCALCULATOR/",
+    },
+    {
+        id: 2,
+        name: "XWeather",
+        image: "",
+        link: "https://fascinating-muffin-d885a6.netlify.app/",
+        github: "https://github.com/Kamlesh-Sahu-R/xweather",
+        module:"https://www.crio.do/learn/me/ME_FE_BUILDOUT_XWEATHERAPP/",
+    },
+    {
+        id: 3,
+        name: "XCountries",
+        image: "",
+        link: "https://benevolent-choux-55da9c.netlify.app/",
+        github: "https://github.com/Kamlesh-Sahu-R/xcountries",
+        module:"https://www.crio.do/learn/me/ME_FE_BUILDOUT_XCOUNTRIES/",
+    },
+    {
+        id: 2,
+        name: "XQuiz",
+        image: "",
+        link: "",
+        github: "",
+        module:"https://www.crio.do/learn/me/ME_FE_BUILDOUT_XQUIZFE/",
+    },
+    {
+        id: 2,
+        name: "",
+        image: "",
+        link: "",
+        github: "",
+        module:"",
+    },
+];

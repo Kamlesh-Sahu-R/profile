@@ -149,6 +149,23 @@ const projects = [
             "Displayed booking slots on My Booking page.",
         ],
     },
+    { 
+        id: 0, 
+        name: "XCruise", 
+        goal: "",
+        focus: "NA",
+        plateform: ["Netlify"], 
+        type: "Full Stack",
+        skills: ["HTML", "CSS",],
+        detail: "https://www.crio.do/learn/me/ME_FE_BUILDOUT_XCRUISE/",
+        figma: "NA",
+        doc: "NA",
+        github:"https://github.com/Kamlesh-Sahu-R/kamleshsahur-ME_FE_BUILDOUT_XCRUISE/tree/master", 
+        page: "https://transcendent-narwhal-b9fa3f.netlify.app/",
+        description: [
+          "Create a Task schema in MongoDB with title, description, status, linked file, created on, deadline",
+        ],
+    },
 
   
 ];
