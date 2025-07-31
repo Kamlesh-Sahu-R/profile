@@ -4,11 +4,12 @@
   justify-content: space-between;
   padding: 1rem 2rem;
   background-color: var(--bg);
+  background: linear-gradient(to right, var(--footer-bg), var(--footer-bg1));
   color: var(--text);
   gap: 2rem;
   transition: background 0.3s ease, color 0.3s ease;
   flex-wrap: nowrap;
-  margin-top: 4%;
+  margin-top: 3%;
 }
 
 .hero-con {
@@ -99,5 +100,9 @@ h1 {
   .hero-image img {
     width: 180px;
     height: 180px;
+  }
+  .hero-con {
+    display: flex;
+    flex-wrap: wrap;
   }
 }

@@ -1,12 +1,12 @@
 :root {
   --bg: #ffffff;
-  --text: #000000;
+  --text: #050505;
   --text1: oklab(51.32299999999999% -0.0298 -0.25085);
   --card-bg: #f0f0f0;
   --like-color: red;
-  --proj-bg: #e3f7f8;
-  --footer-bg: #a593c8;
-  --footer-bg1: #85cb7d;
+  --proj-bg: #7681ca;
+  --footer-bg: #b184f3;
+  --footer-bg1: #d9bb6f;
   --footer-text: #19131e;
 }
 
@@ -20,6 +20,8 @@ body.dark {
   --footer-bg1: #0e2114;
   --footer-text: #715ee8;
 } 
+
+
 
 body {
   margin: 0;

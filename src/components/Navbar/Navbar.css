@@ -5,6 +5,7 @@
   width: 100%;
   padding: 1rem 2rem;
   background-color: var(--card-bg);
+  background: linear-gradient(to right, var(--footer-bg), var(--footer-bg1));
   color: var(--text);
   display: flex;
   justify-content: space-between;

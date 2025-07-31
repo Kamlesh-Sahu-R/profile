@@ -1,5 +1,6 @@
 .project-container {
   background-color: var(--bg);
+  background: linear-gradient(to right, var(--footer-bg), var(--footer-bg1));
   width: 100%;
   padding: 2rem 1rem;
   box-sizing: border-box;

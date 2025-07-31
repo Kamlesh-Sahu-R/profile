@@ -4,7 +4,7 @@ import './ProjectCards.css';
 function ProjectCards() {
   return (
     <div id= "projects" className="project-container">
-      <div className='myproject'><span>My Projects <span style={{ color: '#ff5722' }}>({projects.length})</span></span></div>
+      <div className='myproject'><span>My Projects <span style={{ color: '#f9f3f1ff' }}>({projects.length})</span></span></div>
       <div className="projectCard-container">
         {projects.map((project, index) => {
           const skills = project.skills.join(' | ');

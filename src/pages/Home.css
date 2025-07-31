@@ -4,38 +4,36 @@
   flex-direction: column;
   min-height: 100vh;
   width: 100%;
+  /* background: linear-gradient(to right, var(--footer-bg), var(--footer-bg1)); */
 }
 
-/* Optional padding if Navbar is fixed */
-/* .app {
-  padding-top: 80px;
-} */
-
-/* Wrapper for sidebar + main content */
 .content-wrapper {
   display: flex;
   flex: 1;
   width: 100%;
-  gap: 1rem;
+  gap: 0;
 }
 
 /* Sidebar */
 .sidebar {
   width: 240px;
   background-color: var(--card-bg, #2c3e50);
+  /* background: linear-gradient(to right, var(--footer-bg1), var(--footer-bg)); */
   color: var(--text, #ffffff);
   padding: 1rem;
   flex-shrink: 0;
-  box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 2px 0 10px rgba(0, 0, 0, 0.5);
   transition: all 0.3s ease;
+  
 }
 
 /* Main content */
 .main-content {
   flex: 1;
-  padding: 2rem;
+  padding-top: 1.5rem;
   overflow-x: hidden;
-  background-color: var(--bg);
+  /* background-color: var(--bg); */
+  /* background: linear-gradient(to right, var(--footer-bg), var(--footer-bg1)); */
 }
 
 /* Footer */
