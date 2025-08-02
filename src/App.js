@@ -10,7 +10,7 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/Tools" element={<Tools />} />
+        <Route path="/tools" element={<Tools />} />
         <Route path="/tools/time-comparator" element={<TimeComparator />} />
         <Route path="/tools/gst-invoice" element={<GSTInvoiceApp />} />
         <Route path="/tools/invoice" element={<InvoiceApp />} />
