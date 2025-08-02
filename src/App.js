@@ -1,47 +1,9 @@
-// import './App.css';
-// import Navbar from './components/Navbar/Navbar';
-// import Hero from './components/Hero/Hero';
-// import SkillsCards from './components/SkillsCards/SkillsCards';
-// import ProductCards from './components/ProjectsCards/ProjectCards';
-// import GitContribution from './components/GitContribution/GitContribution';
-// import Certificates from './components/Certificates/Certificates';
-// import Documents from './components/Documents/Documents';
-// import Footer from './components/Footer/Footer';
-// //import TimeComparator from './components/TimeComparator/TimeComparator';
-
-// function App() {
-//   return (
-//     <div className="layout">
-//       <header>
-//         <Navbar />
-//       </header>
-//       <div className="content-wrapper">
-//       <aside className="sidebar">
-//         <Certificates />
-//         <Documents />
-//       </aside>
-//       <main className="main-content">
-//         <Hero />
-//         <SkillsCards />
-//         <ProductCards />
-//         <GitContribution />
-//       </main>
-      
-        
-//       </div>
-//       {/* <TimeComparator /> */}
-//       <Footer />
-//     </div>
-//   );
-// }
-
-// export default App;
-
-
-// import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import Tools from './pages/Tools';
+import TimeComparator from '../src/components/Tools/TimeComparator/TimeComparator';
+import GSTInvoiceApp from '../src/components/Tools/Invoice/InvoiceGen/GSTInvoiceApp';
+import InvoiceApp from '../src/components/Tools/Invoice/InvoiceGen/InvoiceApp';
 
 function App() {
   return (
@@ -49,6 +11,9 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/Tools" element={<Tools />} />
+        <Route path="/tools/time-comparator" element={<TimeComparator />} />
+        <Route path="/tools/gst-invoice" element={<GSTInvoiceApp />} />
+        <Route path="/tools/invoice" element={<InvoiceApp />} />
       </Routes>
     </Router>
   );

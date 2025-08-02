@@ -1,25 +1,55 @@
 import './Tools.css';
 import Navbar from '../components/Navbar/Navbar';
 import Footer from '../components/Footer/Footer';
-import TimeComparator from '../components/TimeComparator/TimeComparator';
-// import Invoice from '../components/Tools/Invoice/Invoice';
-import InvoiceApp from '../components/Tools/Invoice/InvoiceApp';
+import TimeComparator from '../components/Tools/TimeComparator/TimeComparator';
+import GSTInvoiceApp from '../components/Tools/Invoice/InvoiceGen/GSTInvoiceApp';
+import InvoiceApp from '../components/Tools/Invoice/InvoiceGen/InvoiceApp';
 
 function Tools() {
+  const tools = [
+    {
+      name: 'Time Comparator',
+      component: <TimeComparator />,
+      path: '/tools/time-comparator',
+    },
+    {
+      name: 'Invoice Generator with GST',
+      component: <GSTInvoiceApp />,
+      path: '/tools/gst-invoice',
+    },
+     {
+      name: 'Invoice Generator',
+      component: <InvoiceApp />,
+      path: '/tools/invoice',
+    },
+  ];
+
+  const handleToolClick = (path) => {
+    window.open(path, '_blank'); // open full tool in new tab
+  };
+
   return (
     <div className="layout">
       <header>
         <Navbar />
       </header>
       <div className="content-wrapper">
-        {/* <aside className="sidebar">
-        
-        </aside> */}
         <main className="main-content">
-          <TimeComparator />
-          {/* <Invoice /> */}
-          <InvoiceApp />
-        </main>  
+          <div className="tools-grid">
+            {tools.map((tool, index) => (
+              <div
+                key={index}
+                className="tool-card"
+                onClick={() => handleToolClick(tool.path)}
+              >
+                <h2 className="tool-title">{tool.name}</h2>
+                <div className="tool-preview">
+                  {tool.component}
+                </div>
+              </div>
+            ))}
+          </div>
+        </main>
       </div>
       <Footer />
     </div>
