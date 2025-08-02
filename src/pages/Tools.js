@@ -2,6 +2,8 @@ import './Tools.css';
 import Navbar from '../components/Navbar/Navbar';
 import Footer from '../components/Footer/Footer';
 import TimeComparator from '../components/TimeComparator/TimeComparator';
+// import Invoice from '../components/Tools/Invoice/Invoice';
+import InvoiceApp from '../components/Tools/Invoice/InvoiceApp';
 
 function Tools() {
   return (
@@ -10,11 +12,13 @@ function Tools() {
         <Navbar />
       </header>
       <div className="content-wrapper">
-        <aside className="sidebar">
+        {/* <aside className="sidebar">
         
-        </aside>
+        </aside> */}
         <main className="main-content">
-            <TimeComparator />
+          <TimeComparator />
+          {/* <Invoice /> */}
+          <InvoiceApp />
         </main>  
       </div>
       <Footer />
