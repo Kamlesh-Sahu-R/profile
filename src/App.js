@@ -4,6 +4,7 @@ import Tools from './pages/Tools';
 import TimeComparator from '../src/components/Tools/TimeComparator/TimeComparator';
 import GSTInvoiceApp from '../src/components/Tools/Invoice/InvoiceGen/GSTInvoiceApp';
 import InvoiceApp from '../src/components/Tools/Invoice/InvoiceGen/InvoiceApp';
+import HabitTracker from './components/Tools/HabitTracker/HabitTracker';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="/tools/time-comparator" element={<TimeComparator />} />
         <Route path="/tools/gst-invoice" element={<GSTInvoiceApp />} />
         <Route path="/tools/invoice" element={<InvoiceApp />} />
+        <Route path="/tools/habit-tracker" element={<HabitTracker />} />
       </Routes>
     </Router>
   );

@@ -4,6 +4,7 @@ import Footer from '../components/Footer/Footer';
 import TimeComparator from '../components/Tools/TimeComparator/TimeComparator';
 import GSTInvoiceApp from '../components/Tools/Invoice/InvoiceGen/GSTInvoiceApp';
 import InvoiceApp from '../components/Tools/Invoice/InvoiceGen/InvoiceApp';
+import HabitTracker from '../components/Tools/HabitTracker/HabitTracker';
 
 function Tools() {
   const tools = [
@@ -17,10 +18,15 @@ function Tools() {
       component: <GSTInvoiceApp />,
       path: '/tools/gst-invoice',
     },
-     {
+    {
       name: 'Invoice Generator',
       component: <InvoiceApp />,
       path: '/tools/invoice',
+    },
+    {
+      name: 'Habit Tracker',
+      component: <HabitTracker />,
+      path: '/tools/habit-tracker',
     },
   ];
 
