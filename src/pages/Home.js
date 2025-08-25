@@ -3,6 +3,7 @@ import Navbar from '../components/Navbar/Navbar';
 import Hero from '../components/Hero/Hero';
 import SkillsCards from '../components/SkillsCards/SkillsCards';
 import ProductCards from '../components/ProjectsCards/ProjectCards';
+import ProjectCarousel from '../components/ProjectsCards/ProjectCarousel';
 import GitContribution from '../components/GitContribution/GitContribution';
 import Certificates from '../components/Certificates/Certificates';
 import Documents from '../components/Documents/Documents';
@@ -23,8 +24,11 @@ function Home() {
       <main className="main-content">
         <Hero />
         <SkillsCards />
-        <ProductCards />
         <GitContribution />
+        <ProjectCarousel />
+        <ProductCards />
+        
+        
       </main>
       
         

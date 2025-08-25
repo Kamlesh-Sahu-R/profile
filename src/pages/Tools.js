@@ -5,6 +5,7 @@ import TimeComparator from '../components/Tools/TimeComparator/TimeComparator';
 import GSTInvoiceApp from '../components/Tools/Invoice/InvoiceGen/GSTInvoiceApp';
 import InvoiceApp from '../components/Tools/Invoice/InvoiceGen/InvoiceApp';
 import HabitTracker from '../components/Tools/HabitTracker/HabitTracker';
+import StringComparator from '../components/Tools/StringComparator/StringComparator';
 
 function Tools() {
   const tools = [
@@ -27,6 +28,11 @@ function Tools() {
       name: 'Habit Tracker',
       component: <HabitTracker />,
       path: '/tools/habit-tracker',
+    },
+    {
+      name: 'String Comparator',
+      component: <StringComparator />,
+      path: '/tools/string-comparator',
     },
   ];
 

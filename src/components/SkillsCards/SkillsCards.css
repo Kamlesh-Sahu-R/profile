@@ -38,7 +38,7 @@
 }
 
 .skillCard {
-  background-color: var(--card-bg);
+  background: linear-gradient(135deg, var(--footer-bg), var(--footer-bg1));
   border-radius: 12px;
   padding: 1rem;
   text-align: center;

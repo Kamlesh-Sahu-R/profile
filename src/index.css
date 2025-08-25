@@ -1,4 +1,4 @@
-:root {
+/* :root {
   --bg: #ffffff;
   --text: #050505;
   --text1: oklab(51.32299999999999% -0.0298 -0.25085);
@@ -41,4 +41,46 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+} */
+
+
+:root {
+  --bg: #fdfdfd;
+  --text: #1a1a1a;
+  --text1: #555;
+  --card-bg: #ffffff;
+  --like-color: #ff4d6d;
+  --proj-bg: #eceefe;
+  --footer-bg: #7f5af0;
+  --footer-bg1: #ff9f68;
+  --footer-text: #19131e;
+}
+
+body.dark {
+  --bg: #0f0f0f;
+  --text: #f5f5f5;
+  --text1: #bbbbbb;
+  --card-bg: #1a1a1a;
+  --proj-bg: #151515;
+  --footer-bg: #5a189a;
+  --footer-bg1: #ff6d00;
+  --footer-text: #c1b3ff;
+}
+
+/* Global */
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  font-family: 'Poppins', 'Segoe UI', Roboto, sans-serif;
+  background-color: var(--bg);
+  color: var(--text);
+  transition: background 0.4s ease, color 0.4s ease;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1.6;
+}
+
+code {
+  font-family: 'Fira Code', 'Courier New', monospace;
 }

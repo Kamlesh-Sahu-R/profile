@@ -5,6 +5,7 @@ import TimeComparator from '../src/components/Tools/TimeComparator/TimeComparato
 import GSTInvoiceApp from '../src/components/Tools/Invoice/InvoiceGen/GSTInvoiceApp';
 import InvoiceApp from '../src/components/Tools/Invoice/InvoiceGen/InvoiceApp';
 import HabitTracker from './components/Tools/HabitTracker/HabitTracker';
+import StringComparator from './components/Tools/StringComparator/StringComparator';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/tools/gst-invoice" element={<GSTInvoiceApp />} />
         <Route path="/tools/invoice" element={<InvoiceApp />} />
         <Route path="/tools/habit-tracker" element={<HabitTracker />} />
+        <Route path="/tools/string-comparator" element={<StringComparator />} />
       </Routes>
     </Router>
   );
