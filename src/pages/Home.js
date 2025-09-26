@@ -5,6 +5,7 @@ import SkillsCards from '../components/SkillsCards/SkillsCards';
 import ProductCards from '../components/ProjectsCards/ProjectCards';
 import ProjectCarousel from '../components/ProjectsCards/ProjectCarousel';
 import GitContribution from '../components/GitContribution/GitContribution';
+import LeetCode from '../components/LeetCode/LeetCode';
 import Certificates from '../components/Certificates/Certificates';
 import Documents from '../components/Documents/Documents';
 import Footer from '../components/Footer/Footer';
@@ -25,6 +26,7 @@ function Home() {
         <Hero />
         <SkillsCards />
         <GitContribution />
+        <LeetCode />
         <ProjectCarousel />
         <ProductCards />
         

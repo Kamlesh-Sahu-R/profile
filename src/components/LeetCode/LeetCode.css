@@ -1,0 +1,45 @@
+.leetCode-contribution-section {
+  padding-bottom: 3rem;
+  background-color: var(--bg);
+  background: linear-gradient(to right, var(--footer-bg), var(--footer-bg1));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  transition: background-color 0.3s ease;
+}
+
+.leetCode-contribution-section h3 {
+  font-size: 2rem;
+  color: var(--text);
+  margin-top: 0;
+}
+
+.leetCode-contribution-section img {
+  width: 65%;
+  max-width: 1000px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.leetCode-contribution-section img:hover {
+  transform: scale(1.02);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* Responsive Typography */
+@media (max-width: 768px) {
+  .leetCode-contribution-section h3 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .leetCode-contribution-section {
+    padding: 1rem;
+  }
+
+  .leetCode-contribution-section h3 {
+    font-size: 1.3rem;
+  }
+}
